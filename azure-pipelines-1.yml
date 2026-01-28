@@ -103,7 +103,7 @@ stages:
     - task: ManualValidation@1
       timeoutInMinutes: 1440 # task times out in 1 day
       inputs:
-        notifyUsers: user@example.com
+        notifyUsers: 23d105@psgitech.ac.in
         instructions: 'Please validate the stage configuration and resume'
         onTimeout: 'resume'
 
@@ -128,7 +128,7 @@ stages:
     - task: ManualValidation@1
       timeoutInMinutes: 1440 # task times out in 1 day
       inputs:
-        notifyUsers: user@example.com
+        notifyUsers: 23d105@psgitech.ac.in
         instructions: 'Please validate the build configuration and resume'
         onTimeout: 'resume'
 
